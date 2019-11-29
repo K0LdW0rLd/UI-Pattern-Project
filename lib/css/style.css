@@ -1,6 +1,9 @@
 body {
   background: aqua;
   color: forestgreen;
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
 
 .topnav {
@@ -10,7 +13,7 @@ body {
   padding: 5px;
 }
 
-div a {
+div .styleNone{
   padding: 10px;
   margin: 5px;
   text-decoration: none;
@@ -24,4 +27,21 @@ div a {
 
 h1 {
   text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  /* padding: 05px; */
+  background-color: darkgreen;
+
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkred;
+  margin: 10 auto;
 }
