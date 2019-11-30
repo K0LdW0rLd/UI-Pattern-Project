@@ -1,6 +1,6 @@
 body {
-  background: aqua;
-  color: forestgreen;
+  background: antiquewhite;
+  color: deepskyblue;
   width: 100%;
   text-align: center;
   margin: auto;
@@ -33,6 +33,7 @@ img {
   width: 200px;
   height: 250px;
   margin: 10px;
+  border-style: solid;
   /* padding: 05px; */
   background-color: darkgreen;
 
